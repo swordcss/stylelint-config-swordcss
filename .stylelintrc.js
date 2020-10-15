@@ -14,5 +14,7 @@ module.exports = {
         severity: "error",
       },
     ],
+    "scss/at-rule-no-unknown": true,
+    "at-rule-no-unknown": false,
   },
 };
