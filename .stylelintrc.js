@@ -3,7 +3,7 @@ module.exports = {
   plugins: ["stylelint-scss"],
   rules: {
     "scss/dollar-variable-colon-space-after": [
-      true,
+      "always",
       {
         severity: "error",
       },
