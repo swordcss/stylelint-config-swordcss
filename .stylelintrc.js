@@ -14,7 +14,12 @@ module.exports = {
         severity: "error",
       },
     ],
-    "scss/at-rule-no-unknown": true,
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: ["sw-variables", "sw-constants"]
+      }
+    ],
     "at-rule-no-unknown": false,
   },
 };
