@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-swordcss",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A shareable config for Stylelint",
   "main": ".stylelintrc.js",
   "scripts": {
