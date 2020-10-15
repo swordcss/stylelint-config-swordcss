@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-config-swordcss",
+  "version": "1.0.0",
+  "description": "A shareable config for Stylelint",
+  "main": ".stylelintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --no-config --write ."
+  },
+  "files": [
+    ".stylelintrc.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swordcss/stylelint-config-swordcss.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "shadowtime2000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swordcss/stylelint-config-swordcss/issues"
+  },
+  "homepage": "https://github.com/swordcss/stylelint-config-swordcss#readme",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.7.0"
+  },
+  "dependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-scss": "^3.18.0"
+  }
+}
