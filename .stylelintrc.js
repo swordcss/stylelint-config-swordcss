@@ -20,6 +20,6 @@ module.exports = {
         ignoreAtRules: ["sw-variables", "sw-constants"]
       }
     ],
-    "at-rule-no-unknown": false,
+    "at-rule-no-unknown": null,
   },
 };
