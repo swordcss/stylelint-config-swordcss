@@ -17,9 +17,16 @@ module.exports = {
     "scss/at-rule-no-unknown": [
       true,
       {
-        ignoreAtRules: ["sw-variables", "sw-constants"]
-      }
+        ignoreAtRules: ["/^sw-/i"],
+      },
     ],
     "at-rule-no-unknown": null,
+    "property-no-unknown": [
+      true,
+      {
+        ignoreProperties: [/^sw-/i],
+        ignoreSelectors: [":root"]
+      }
+    ]
   },
 };
