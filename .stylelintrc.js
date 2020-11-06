@@ -25,7 +25,7 @@ module.exports = {
       true,
       {
         ignoreProperties: [/^sw-/i],
-        ignoreSelectors: [":root", "sw-variables", "sw-constants"]
+        ignoreSelectors: [":root", "/sw-/i"]
       }
     ]
   },
